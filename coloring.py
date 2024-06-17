@@ -121,7 +121,7 @@ if __name__=="__main__":
                 nodes.append(Node(len(nodes), x, y))
 
     # 添加地图的边关系
-    print("----正在添加边缘关----")
+    print("----正在添加边缘关系----")
     # 0为外围，本实验不考虑
     for i in range(1, len(nodes)):
         for j in range(1, len(nodes)):
